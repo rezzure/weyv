@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-ink font-sans antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-ink;
+  }
+  ::selection {
+    @apply bg-primary/20 text-ink;
+  }
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+@layer utilities {
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs sm:text-sm font-medium tracking-[0.2em] uppercase text-primary;
+  }
+  .container-wrap {
+    @apply max-w-wrap mx-auto px-5 sm:px-6 lg:px-10;
+  }
+  .section-pad {
+    @apply py-16 sm:py-20 lg:py-28;
+  }
+  .heading-xl {
+    font-size: clamp(2.25rem, 6vw, 5.5rem);
+    @apply leading-[1.04] tracking-tight;
+  }
+  .heading-lg {
+    font-size: clamp(1.8rem, 4vw, 3.5rem);
+    @apply leading-[1.08] tracking-tight;
+  }
+  .body-md {
+    font-size: clamp(0.95rem, 1.2vw, 1.1rem);
+    @apply leading-relaxed text-muted;
+  }
+  .slant-tag {
+    @apply -skew-x-6 inline-block;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

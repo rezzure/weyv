@@ -1,0 +1,9 @@
+{
+  "short_name": "WEYV",
+  "name": "WEYV | Interior Design & Turnkey Solutions",
+  "icons": [{ "src": "/favicon.png", "type": "image/png", "sizes": "256x256" }],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#129C96",
+  "background_color": "#FFFFFF"
+}
