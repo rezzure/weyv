@@ -8,14 +8,6 @@ export const testimonials = [
       "WEYV understood our culture before they drew a single wall. The office finally feels like the company we're building.",
   },
   {
-    name: "Sanya Kapoor",
-    role: "Homeowner",
-    project: "Residential",
-    rating: 5,
-    quote:
-      "They designed around how our family actually lives, not a showroom idea of a home. Every room gets used every day.",
-  },
-  {
     name: "Rohit Bhargava",
     role: "Founder, Form & Fold",
     project: "Retail Flagship",

@@ -1,7 +1,6 @@
 export const serviceLinks = [
   { label: "Corporate Interior", path: "/services/corporate-interior" },
   { label: "Commercial Interior", path: "/services/commercial-interior" },
-  { label: "Residential Interior", path: "/services/residential-interior" },
   { label: "Retail Interior", path: "/services/retail-interior" },
 ];
 

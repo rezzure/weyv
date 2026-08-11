@@ -16,22 +16,6 @@ export const blogPosts = [
     ],
   },
   {
-    slug: "material-palettes-for-warm-minimal-homes",
-    title: "Material Palettes for Warm Minimal Homes",
-    category: "Residential",
-    date: "2026-05-28",
-    author: "WEYV Studio",
-    excerpt:
-      "Minimalism doesn't have to mean cold. A close look at how we layer timber, limewash and brass to keep pared-back interiors feeling lived-in.",
-    image:
-      "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
-    content: [
-      "Minimal doesn't have to mean sparse or sterile. The homes that feel calm rather than cold are usually the ones where a limited palette is chosen with real intention — a handful of materials repeated with confidence.",
-      "Our go-to combination lately pairs white oak joinery with a limewash-finished wall and brushed brass hardware. Each material brings a different kind of texture, so the eye still has somewhere to land even without a busy colour scheme.",
-      "Lighting temperature matters as much as material choice. Warm white sources (around 2700K) keep a minimal palette from reading clinical, especially in living and dining zones used in the evening.",
-    ],
-  },
-  {
     slug: "retail-store-flow-that-actually-converts",
     title: "Retail Store Flow That Actually Converts",
     category: "Retail",
@@ -101,7 +85,6 @@ export const blogCategories = [
   "All",
   "Interior Design",
   "Office Design",
-  "Residential",
   "Retail",
   "Architecture",
   "Trends",

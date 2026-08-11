@@ -64,6 +64,7 @@ export default function ContactTeaser() {
         <div className="aspect-[4/5] w-full overflow-hidden bg-soft lg:aspect-auto">
           <img
             src="https://images.unsplash.com/photo-1600607687644-c7171b42498b?q=80&w=1200&auto=format&fit=crop"
+            //this image is not showing
             alt="WEYV studio interior"
             loading="lazy"
             className="h-full w-full object-cover"

@@ -4,7 +4,6 @@ import { CheckCircle2, Loader2 } from "lucide-react";
 const projectTypes = [
   "Corporate Interior",
   "Commercial Interior",
-  "Residential Interior",
   "Retail Interior",
   "Not Sure Yet",
 ];

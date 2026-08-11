@@ -27,34 +27,7 @@ export const projects = [
       "Biophilic material palette",
     ],
   },
-  {
-    slug: "harbor-lane-residence",
-    name: "Harbor Lane Residence",
-    category: "Residential",
-    location: "New Delhi",
-    year: "2024",
-    image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1400&auto=format&fit=crop",
-    gallery: [
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1400&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=1400&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1400&auto=format&fit=crop",
-    ],
-    overview:
-      "A 4BHK family residence reworked around warm, tactile materials and a kitchen designed as the true centre of the home.",
-    concept:
-      "Warm minimalism — quiet backgrounds that let a few considered furniture pieces and natural textures carry the character.",
-    challenge:
-      "A boxy, compartmentalised original layout that cut the kitchen off from family life.",
-    solution:
-      "We removed a non-structural wall to open the kitchen to the living and dining zones, and introduced a material palette of white oak, limewash and brushed brass.",
-    features: [
-      "Open kitchen-living-dining plan",
-      "Custom white-oak joinery",
-      "Layered ambient lighting",
-      "Built-in reading nook",
-    ],
-  },
+  
   {
     slug: "form-and-fold-flagship",
     name: "Form & Fold Flagship Store",
@@ -173,7 +146,6 @@ export const projectCategories = [
   "All",
   "Corporate",
   "Commercial",
-  "Residential",
   "Retail",
 ];
 

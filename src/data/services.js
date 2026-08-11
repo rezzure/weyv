@@ -81,47 +81,7 @@ export const services = [
       },
     ],
   },
-  {
-    slug: "residential-interior",
-    title: "Residential Interiors",
-    shortTitle: "Residential",
-    heroTitle: "Residential Interior Design",
-    tagline: "Interiors Designed Around You",
-    description:
-      "Homes shaped around how a family actually lives — considered layouts, custom furniture and lighting that changes with the day.",
-    longIntro:
-      "A home should feel like it was designed for exactly the people who live in it. We start with how a household actually moves through a day — cooking, working, gathering, resting — and build the design language outward from there.",
-    image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600&auto=format&fit=crop",
-    heroImage:
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1920&auto=format&fit=crop",
-    features: [
-      {
-        title: "Living Spaces",
-        text: "Layouts that balance openness with cosy, defined zones for everyday life.",
-      },
-      {
-        title: "Bedrooms",
-        text: "Calm, restorative palettes and storage that stays out of sight until needed.",
-      },
-      {
-        title: "Kitchen & Dining",
-        text: "Efficient work-triangles paired with dining spaces built for gathering.",
-      },
-      {
-        title: "Lighting",
-        text: "Layered ambient, task and accent lighting tuned to each room's rhythm.",
-      },
-      {
-        title: "Storage Solutions",
-        text: "Custom joinery that keeps every room clutter-free without feeling clinical.",
-      },
-      {
-        title: "Custom Furniture",
-        text: "Pieces designed to fit the room exactly, not the other way around.",
-      },
-    ],
-  },
+  
   {
     slug: "retail-interior",
     title: "Retail Interiors",

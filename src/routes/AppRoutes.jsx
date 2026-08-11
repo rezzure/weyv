@@ -4,7 +4,6 @@ import About from "../pages/About";
 import Services from "../pages/Services";
 import CorporateInterior from "../pages/CorporateInterior";
 import CommercialInterior from "../pages/CommercialInterior";
-import ResidentialInterior from "../pages/ResidentialInterior";
 import RetailInterior from "../pages/RetailInterior";
 import Gallery from "../pages/Gallery";
 import ProjectDetails from "../pages/ProjectDetails";
@@ -23,7 +22,6 @@ export default function AppRoutes() {
       <Route path="/services" element={<Services />} />
       <Route path="/services/corporate-interior" element={<CorporateInterior />} />
       <Route path="/services/commercial-interior" element={<CommercialInterior />} />
-      <Route path="/services/residential-interior" element={<ResidentialInterior />} />
       <Route path="/services/retail-interior" element={<RetailInterior />} />
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/projects/:slug" element={<ProjectDetails />} />

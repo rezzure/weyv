@@ -14,12 +14,12 @@ export const SEO = {
   about: {
     title: "About WEYV | Interior Design Experts",
     description:
-      "Learn about WEYV's design philosophy, mission and the team behind our corporate, commercial, residential and retail interiors.",
+      "Learn about WEYV's design philosophy, mission and the team behind our corporate, commercial and retail interiors.",
   },
   services: {
     title: "Interior Design Services | WEYV",
     description:
-      "Explore WEYV's corporate, commercial, residential and retail interior design services.",
+      "Explore WEYV's corporate, commercial and retail interior design services.",
   },
   gallery: {
     title: "Interior Design Projects | WEYV",

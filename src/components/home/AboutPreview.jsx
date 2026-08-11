@@ -45,21 +45,21 @@ export default function AboutPreview() {
           className="relative order-1 lg:order-2"
         >
           <div className="aspect-[4/5] w-[80%] overflow-hidden bg-soft">
-            <img
-              src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1200&auto=format&fit=crop"
-              alt="WEYV interior design project"
-              loading="lazy"
-              className="h-full w-full object-cover"
-            />
-          </div>
-          <div className="absolute -bottom-8 -right-2 aspect-[4/5] w-[46%] overflow-hidden border-4 border-white bg-soft shadow-lift sm:-right-4">
-            <img
-              src="https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=900&auto=format&fit=crop"
-              alt="WEYV interior detail"
-              loading="lazy"
-              className="h-full w-full object-cover"
-            />
-          </div>
+  <img
+    src="https://images.unsplash.com/photo-1758448500688-3ababa93fd67?q=80&w=1200&auto=format&fit=crop"
+    alt="WEYV commercial interior design project"
+    loading="lazy"
+    className="h-full w-full object-cover"
+  />
+</div>
+<div className="absolute -bottom-8 -right-2 aspect-[4/5] w-[46%] overflow-hidden border-4 border-white bg-soft shadow-lift sm:-right-4">
+  <img
+    src="https://images.unsplash.com/photo-1758448721205-8465cebc26af?q=80&w=900&auto=format&fit=crop"
+    alt="WEYV commercial interior detail"
+    loading="lazy"
+    className="h-full w-full object-cover"
+  />
+</div>
           <div className="absolute -left-2 bottom-8 flex flex-col items-start rounded-2xl bg-white px-5 py-4 shadow-lift sm:-left-6">
             <span className="font-display text-3xl text-primary">10+</span>
             <span className="text-xs text-muted">Years of Design Excellence</span>

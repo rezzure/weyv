@@ -64,7 +64,7 @@ export default function About() {
             <p className="body-md mt-4">
               Founded in {companyInfo.founded}, WEYV has grown from a small
               residential practice into a full-service studio covering
-              corporate, commercial, residential and retail interiors —
+              corporate, commercial and retail interiors —
               without losing the attention to detail we started with.
             </p>
           </motion.div>

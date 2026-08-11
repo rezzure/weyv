@@ -3,7 +3,7 @@ export const companyInfo = {
   tagline: "Interior Design & Turnkey Solutions",
   founded: 2015,
   description:
-    "WEYV is a modern interior design and execution studio shaping corporate, commercial, residential and retail environments across India. We take every project from first sketch to final handover under one roof.",
+    "WEYV is a modern interior design and execution studio shaping corporate, commercial and retail environments across India. We take every project from first sketch to final handover under one roof.",
   phone: "+91 98765 43210",
   phoneHref: "+919876543210",
   whatsapp: "+919876543210",
