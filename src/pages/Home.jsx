@@ -12,6 +12,7 @@ import TestimonialsSection from "../components/home/TestimonialsSection";
 import BlogPreview from "../components/home/BlogPreview";
 import FinalCTA from "../components/home/FinalCTA";
 import ContactTeaser from "../components/home/ContactTeaser";
+import VideoSection from "../components/home/VideoSection";
 
 export default function Home() {
   useSEO(SEO.home.title, SEO.home.description);
@@ -22,6 +23,7 @@ export default function Home() {
       <AboutPreview />
       <TrustedCompanies />
       <ServicesSection />
+      <VideoSection />
       <FeaturesSection />
       <StatsSection />
       <PopularProjects />
